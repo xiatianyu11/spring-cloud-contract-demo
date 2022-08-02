@@ -1,0 +1,16 @@
+{
+  "id" : "8957d406-9202-4e7f-a922-df22af4b0267",
+  "request" : {
+    "url" : "/test",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "hello",
+    "headers" : {
+      "Content-Type" : "application/json"
+    },
+    "transformers" : [ "response-template", "spring-cloud-contract" ]
+  },
+  "uuid" : "8957d406-9202-4e7f-a922-df22af4b0267"
+}

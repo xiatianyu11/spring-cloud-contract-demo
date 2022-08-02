@@ -1,0 +1,16 @@
+{
+  "id" : "b8078a95-6bd7-4f17-9a4a-bc80959ecae9",
+  "request" : {
+    "url" : "/fraud/5",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "{\"client.id\":5,\"loanAmount\":\"\"}",
+    "headers" : {
+      "Content-Type" : "application/json"
+    },
+    "transformers" : [ "response-template", "spring-cloud-contract" ]
+  },
+  "uuid" : "b8078a95-6bd7-4f17-9a4a-bc80959ecae9"
+}

@@ -1,0 +1,34 @@
+-------------------------------------------------------------------------------
+Test set: org.springframework.cloud.contract.verifier.tests.ContractVerifierTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.977 s <<< FAILURE! - in org.springframework.cloud.contract.verifier.tests.ContractVerifierTest
+validate_test  Time elapsed: 0.966 s  <<< ERROR!
+java.lang.IllegalStateException: 
+You haven't configured a MockMVC instance. You can do this statically
+
+RestAssuredMockMvc.mockMvc(..)
+RestAssuredMockMvc.standaloneSetup(..);
+RestAssuredMockMvc.webAppContextSetup(..);
+
+or using the DSL:
+
+given().
+		mockMvc(..). ..
+
+	at org.springframework.cloud.contract.verifier.tests.ContractVerifierTest.validate_test(ContractVerifierTest.java:46)
+
+validate_fraud  Time elapsed: 0.002 s  <<< ERROR!
+java.lang.IllegalStateException: 
+You haven't configured a MockMVC instance. You can do this statically
+
+RestAssuredMockMvc.mockMvc(..)
+RestAssuredMockMvc.standaloneSetup(..);
+RestAssuredMockMvc.webAppContextSetup(..);
+
+or using the DSL:
+
+given().
+		mockMvc(..). ..
+
+	at org.springframework.cloud.contract.verifier.tests.ContractVerifierTest.validate_fraud(ContractVerifierTest.java:26)
+

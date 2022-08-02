@@ -1,0 +1,4 @@
+META-INF/com.tianyu/spring-cloud-contract-demo-provider/0.0.1-SNAPSHOT/contracts/fraud.groovy
+META-INF/com.tianyu/spring-cloud-contract-demo-provider/0.0.1-SNAPSHOT/contracts/test.groovy
+META-INF/com.tianyu/spring-cloud-contract-demo-provider/0.0.1-SNAPSHOT/mappings/test.json
+META-INF/com.tianyu/spring-cloud-contract-demo-provider/0.0.1-SNAPSHOT/mappings/fraud.json

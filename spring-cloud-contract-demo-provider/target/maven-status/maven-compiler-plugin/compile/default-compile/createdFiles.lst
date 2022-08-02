@@ -1,0 +1,6 @@
+com/tianyu/springcloudcontractdemoprovider/fraud/resource/FraudController.class
+com/tianyu/springcloudcontractdemoprovider/fraud/info/LoanResponse.class
+com/tianyu/springcloudcontractdemoprovider/fraud/info/LoanResponse$LoanResponseBuilder.class
+com/tianyu/springcloudcontractdemoprovider/SpringCloudContractDemoProviderApplication.class
+com/tianyu/springcloudcontractdemoprovider/core/ClassPathControllerScanningUtil.class
+com/tianyu/springcloudcontractdemoprovider/test/rescource/TestController.class
